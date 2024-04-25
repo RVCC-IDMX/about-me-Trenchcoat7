@@ -66,6 +66,17 @@ header {
     color: #9E392A;
 }
 
+/*Contact form*/
+
+#formElements 
+{
+
+    display: grid;
+
+}
+
+
+
 footer {
     text-align: center;
     font-size: 10pt;

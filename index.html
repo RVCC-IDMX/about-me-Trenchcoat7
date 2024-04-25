@@ -143,10 +143,84 @@
 
         <video>
 
-            <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/zu5Ml7E-ZEo?si=evIxH2jl2tIw6LDK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <caption>HEERAYAM</caption>
-            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zu5Ml7E-ZEo?si=EdIsO-diXXA7xqXP"
+                title="Heerayam" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         </video>
+
+
+
+        <section id = contacts>
+
+
+
+            <h2>Contact Us...:</h2>
+
+            <form id="contactform" name="contactform">
+
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <div id="formElements">
+                        <label for="name">Name (Required):</label>
+                        <input type="text" id="name">
+
+
+                        <label for="email">Email (Required):</label>
+                        <input type="email" id="email">
+
+                        <label for="phone">Phone Number (Optional):</label>
+                        <input type="tel" id="phone">
+
+                        <label for="phonetype">Phone Type:</label>
+                        <select id="phonetype">
+                            <option value="" selected>Select Phone type</option>
+                            <option value="H">Home</option>
+                            <option value="M">Mobile</option>
+                            <option value="W">Work</option>
+                        </select>
+
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+
+                        <fieldset>
+                            <legend>Would you like a reply?
+
+                                <ul>
+
+                                    <li>
+                                        <input type="radio" id="message-yes" name="reply">
+                                        <label for="message-yes">Yes, a reply would be nice</label>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" id="message-no" name="reply" checked>
+                                        <label for="message-no">No thanks</label>
+                                    </li>
+                                </ul>
+
+                            </legend>
+                        </fieldset>
+
+
+                    </div>
+
+                </fieldset>
+
+
+
+
+            </form>
+
+
+
+        </section>
+
+
+
 
     </main>
 
