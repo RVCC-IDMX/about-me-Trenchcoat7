@@ -1,6 +1,7 @@
 /* make scrolling smooth */
 
-html{
+html
+{
 
     scroll-behavior: smooth;
 
@@ -11,18 +12,19 @@ html{
 */
 
 
-body{
+body
+{
 
     box-sizing: border-box;
     padding: 0%;
     margin: 0;
 
-
 }
 
 /* add some padding back to rest of page */
 
-main{
+main
+{
 
     padding: 2vw;
 
@@ -32,8 +34,35 @@ main{
 /* navbar */
 
 
+.navbar
+{
+
+    background-color: #EEECD9;
+    color: #47662C;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 
 /* logo */
+
+.logo
+{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img
+{
+
+    height: 7vw;
+    width: 7vw;
+
+}
 
 
 
