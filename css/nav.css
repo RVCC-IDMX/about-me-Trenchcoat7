@@ -43,6 +43,7 @@ main
     flex-direction: column;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 
@@ -83,7 +84,7 @@ main
 
 }
 
-.navbar-links a
+.navbar-link a
 {
 
     color: #47662C;
@@ -96,12 +97,22 @@ main
 }
 
 
+
+
 /*  
  style all a tags in header 
  and then on hover
 */
 
+.navbar-link a:hover,
+.navbar-link a:focus
+{
 
+filter: invert(1);
+outline: none;
+border-radius: 10px;
+
+}
 
 
 
@@ -110,3 +121,32 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen (min-width: 60rem) 
+{
+    .navbar-link
+    {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .navbar
+    {
+
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .navbar ul
+    {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+}
