@@ -59,14 +59,41 @@ main
 .logo img
 {
 
-    height: 7vw;
-    width: 7vw;
+    height: 6vw;
+    width: 6vw;
+
+}
+
+.logo h1
+{
+
+    font-size: 1.2em;
 
 }
 
 
-
 /* navigation list */
+
+.navbar-link li
+{
+
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+
+}
+
+.navbar-links a
+{
+
+    color: #47662C;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+
+}
 
 
 /*  
